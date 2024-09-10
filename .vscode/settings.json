@@ -1,0 +1,7 @@
+{
+    "go.testEnvVars": {
+      "WECOM_WEBHOOK_KEY": "",
+      "INTEGRATION_TEST_ENABLED": "true"
+    }
+  }
+  
