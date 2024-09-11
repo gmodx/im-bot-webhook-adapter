@@ -1,4 +1,4 @@
-IM Bot Webhook Adapter
+# IM Bot Webhook Adapter
 
 This package provides a webhook adapter for sending messages (text or markdown) to multiple IM bots via the official webhook API.
 
@@ -6,6 +6,11 @@ This package provides a webhook adapter for sending messages (text or markdown) 
 
 - **Send Messages to Multiple Bots**: Easily send text or markdown messages to all registered bots.
 - **Bot Management**: Register multiple bots with the `BotManager` to send messages across various channels.
+
+## Supported IM provider
+
+* WeCom
+* FeiShu
 
 ## Installation
 
