@@ -33,3 +33,11 @@ func (m *BotManager) Register(name string, bot Bot) {
 
 	m.bots[name] = bot
 }
+
+func Send(msgType MsgType, content string) {
+	mgr.Send(msgType, content)
+}
+
+func Register(name string, bot Bot) {
+	mgr.Register(name, bot)
+}

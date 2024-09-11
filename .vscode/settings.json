@@ -1,7 +1,8 @@
 {
     "go.testEnvVars": {
-      "WECOM_WEBHOOK_KEY": "",
-      "INTEGRATION_TEST_ENABLED": "true"
+        "WECOM_WEBHOOK_KEY": "",
+        "FEISHU_WEBHOOK_TOKEN": "",
+        "FEISHU_WEBHOOK_SECRET": "",
+        "INTEGRATION_TEST_ENABLED": "true"
     }
-  }
-  
+}
