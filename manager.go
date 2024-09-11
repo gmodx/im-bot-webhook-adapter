@@ -10,7 +10,9 @@ var (
 )
 
 func init() {
-	mgr = BotManager{}
+	mgr = BotManager{
+		bots: map[string]Bot{},
+	}
 }
 
 type BotManager struct {
