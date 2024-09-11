@@ -7,7 +7,7 @@ This package provides a webhook adapter for sending messages (text or markdown) 
 - **Send Messages to Multiple Bots**: Easily send text or markdown messages to all registered bots.
 - **Bot Management**: Register multiple bots with the `BotManager` to send messages across various channels.
 
-## Supported IM provider
+## Supported IM webhook providers
 
 * WeCom
 * FeiShu
@@ -71,7 +71,7 @@ Here's a complete example of registering bots and sending a message:
 ```go
 package main
 
-import "path/to/imbotwebhookadapter"
+import "github.com/gmodx/im-bot-webhook-adapter"
 
 func main() {
     weComBot := imbotwebhookadapter.NewWeComBot("your_wecom_webhook_key")
